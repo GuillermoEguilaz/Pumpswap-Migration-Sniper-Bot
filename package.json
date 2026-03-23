@@ -1,0 +1,26 @@
+{
+  "name": "pumpswap-migration-sniper-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pump.fun to PumpSwap migration sniper bot",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.7",
+    "pino": "^9.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2",
+    "tsx": "^4.19.3"
+  }
+}
